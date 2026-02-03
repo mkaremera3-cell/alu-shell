@@ -1,2 +1,21 @@
+```
+
+**2. Inside nano, you'll see a mess of text with `<<<<<<<` and `=======` and `>>>>>>>`. Delete ALL of it.**
+
+**3. Type only this:**
+```
+#!/bin/bash
+echo "Hello, World"```
+
+**Step 2: Delete EVERYTHING and type ONLY these 2 lines:**
+```
+#!/bin/bash
+echo "Hello, World"<<<<<<< HEAD
+=======
+```
+
+## Step 3: Type ONLY these 2 lines (nothing else!):
+```
+>>>>>>> Add hello world script
 #!/bin/bash
 echo "Hello, World"
